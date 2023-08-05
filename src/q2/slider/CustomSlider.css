@@ -1,0 +1,11 @@
+/* CustomSlider.css */
+.custom-slide {
+    opacity: 0.7; /* Adjust the opacity as needed */
+    transform: scale(0.8); /* Adjust the scale as needed */
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .slick-center .custom-slide {
+    opacity: 1;
+    transform: scale(1);
+  }
